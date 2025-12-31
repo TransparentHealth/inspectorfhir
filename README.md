@@ -1,4 +1,4 @@
-# FHIR Recognizer (ifhir.py)
+# Inspector FHIR 
 
 A command-line utility and Python module for discovering FHIR endpoints and related API metadata.
 
@@ -15,7 +15,7 @@ A command-line utility and Python module for discovering FHIR endpoints and rela
 ## Installation
 
 ```bash
-pip install ifhir
+pip install inspectorfhir
 ```
 
 ## Command Line Usage
@@ -55,7 +55,7 @@ python ifhir.py --url https://example.com/fhir --all
 ### Import the Module
 
 ```python
-from ifhir import fhir_recognizer
+from inspectorfhir.ifhir import fhir_recognizer
 ```
 
 ### Function: `fhir_recognizer(url, include_details=True)`
@@ -69,7 +69,7 @@ from ifhir import fhir_recognizer
 ### Example Usage
 
 ```python
-from ifhir import fhir_recognizer
+from inspectorfhir.ifhir import fhir_recognizer
 import json
 
 # Check a FHIR endpoint with full details
